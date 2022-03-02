@@ -34,7 +34,6 @@ export default class Index extends Component<IndexProps> {
   }
 
   static async getInitialProps() {
-    console.dir(factory);
     const campaigns = await factory.methods.getDeployedCampaigns().call();
     return {
       campaigns,

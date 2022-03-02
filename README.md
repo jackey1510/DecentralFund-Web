@@ -12,9 +12,9 @@ The contributors can vote to approve/decline the Request, which can help prevent
 
 To run this project, you will need to add the following environment variables to your .env.local file
 
-`CONTRACT_ADDRESS` The campaign factory contract address
+`NEXT_PUBLIC_CONTRACT_ADDRESS` The campaign factory contract address
 
-`WEB3_PROVIDER_URL` URL of Web 3 provider e.g. Infura
+`NEXT_PUBLIC_WEB3_PROVIDER_URL` URL of Web 3 provider e.g. Infura
 
 ## Run Locally
 

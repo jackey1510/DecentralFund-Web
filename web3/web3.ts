@@ -1,6 +1,6 @@
 import Web3 from "web3";
 
-const providerUrl = process.env.WEB3_PROVIDER_URL!;
+const providerUrl = process.env.NEXT_PUBLIC_WEB3_PROVIDER_URL!;
 
 const setWeb3 = () => {
   if (typeof window != "undefined" && window?.ethereum) {

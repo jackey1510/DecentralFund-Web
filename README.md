@@ -8,6 +8,10 @@ The manager can create "Request" to transfer money from the campaign.
 
 The contributors can vote to approve/decline the Request, which can help prevent rigged/poorly managed campaign.
 
+## Network
+
+The smart contract for this application is hosted on Rinkeby Testnet.
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env.local file
@@ -28,4 +32,10 @@ Run Locally
 
 ```bash
   yarn dev
+```
+
+## Deployment
+
+```bash
+  vercel
 ```
